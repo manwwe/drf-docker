@@ -1,0 +1,101 @@
+# Python
+__pycache__/
+*.py[cod]
+*$PYTHON-*
+
+# Virtual environments
+venv/
+env/
+*.env
+*.venv
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+static/
+local_settings.py
+.env
+
+# Django Migrations (Opcional si deseas ignorar las migraciones)
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/*.pyd
+*/migrations/*.swp
+*/migrations/*.swo
+
+# IDEs y editores
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# Docker
+*.pid
+*.swp
+docker-compose.override.yml
+docker-compose.override.yaml
+docker-compose.dev.yml
+docker-compose.dev.yaml
+docker-entrypoint.sh
+
+# Logs y dumps
+logs/
+*.log
+*.out
+*.err
+nohup.out
+dump.rdb
+
+# Coverage y testing
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+*.cover
+.coverage.*
+nosetests.xml
+test-results/
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$PYTHON-*
+
+# Egg files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Pipenv & Poetry
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# PyCharm
+.idea/
+*.iml
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# System files
+.DS_Store
+Thumbs.db

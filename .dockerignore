@@ -1,0 +1,64 @@
+# Ignorar archivos de configuración del entorno y dependencias locales
+.env
+*.env
+*.venv
+venv/
+env/
+
+# Archivos compilados de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos y carpetas generadas por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs y dumps
+logs/
+*.log
+*.out
+*.err
+nohup.out
+dump.rdb
+
+# Archivos de configuración de editores de código
+.vscode/
+.idea/
+*.iml
+
+# Archivos de dependencias innecesarios en la imagen de Docker
+*.egg-info/
+dist/
+build/
+
+# Archivos estáticos y de medios (si se montan en volumen no deben ir en la imagen)
+media/
+static/
+staticfiles/
+
+# Configuración de Docker
+.dockerignore
+docker-compose.override.yml
+docker-compose.override.yaml
+docker-compose.dev.yml
+docker-compose.dev.yaml
+
+# Archivos de test y cobertura de código
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+nosetests.xml
+test-results/
+
+# Evitar que se copien archivos de migraciones innecesarias
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/*.pyd
+*/migrations/*.swp
+*/migrations/*.swo
+
